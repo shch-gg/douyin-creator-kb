@@ -1,0 +1,68 @@
+{
+ "id": "w-0034",
+ "creator_id": "c-0009",
+ "series_id": null,
+ "episode": null,
+ "title": "庄梦迭",
+ "aweme_id": "7411865921263865098（raw.json 字段与视频 URL __vid=7411865921263865098 一致）",
+ "url": null,
+ "duration_ms": 853870,
+ "published_at": "2024-09-07",
+ "status": "backfilled",
+ "platform": {
+  "digg": null,
+  "comment": null,
+  "share": null,
+  "collect": null,
+  "play": null,
+  "hashtags": [],
+  "music": null
+ },
+ "source": {
+  "type": "pointer",
+  "path": "/workspace/01_最终交付/迷人又做作的李章浩/庄梦迭",
+  "sha256": "",
+  "bytes": 0
+ },
+ "spec": {},
+ "tags": [
+  "backfill"
+ ],
+ "coverage": {
+  "beats_total": 214,
+  "beats_registered": 214,
+  "dims_total": 10,
+  "dims_done": 0,
+  "c5_errors": null,
+  "c5_warns": null,
+  "ending_checked": false,
+  "c5_checked_at": null
+ },
+ "assessment": {
+  "hook": null,
+  "structure": null,
+  "character": null,
+  "visual": null,
+  "performance": null,
+  "sound": null,
+  "text": null,
+  "edit": null,
+  "emotion": null,
+  "spread": null
+ },
+ "knowledge_delta": {
+  "added": [],
+  "revised": [],
+  "refuted": [],
+  "none_reason": ""
+ },
+ "paths": {
+  "beats": "works/w-0034/beats.jsonl",
+  "assessment": "works/w-0034/assessment.md",
+  "dossier": "works/w-0034/dossier/",
+  "data": "works/w-0034/data/"
+ },
+ "created_at": "2026-10-29T18:45:01Z",
+ "updated": "2026-10-29",
+ "note": "backfill 自 迷人又做作的李章浩/庄梦迭（09 卷 c_NN 解析）；shot/move/speech/func 未回填，需重读补"
+}

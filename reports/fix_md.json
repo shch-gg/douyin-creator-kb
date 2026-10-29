@@ -1,0 +1,197 @@
+{
+ "schema": "fix_md.v1",
+ "fields": [
+  "visual",
+  "sub",
+  "screen"
+ ],
+ "works": [
+  {
+   "wid": "w-0002",
+   "changed_beats": 85,
+   "changed_fields": 86,
+   "chars_removed": 1390
+  },
+  {
+   "wid": "w-0003",
+   "changed_beats": 69,
+   "changed_fields": 73,
+   "chars_removed": 736
+  },
+  {
+   "wid": "w-0004",
+   "changed_beats": 2,
+   "changed_fields": 2,
+   "chars_removed": 20
+  },
+  {
+   "wid": "w-0005",
+   "changed_beats": 521,
+   "changed_fields": 792,
+   "chars_removed": 8750
+  },
+  {
+   "wid": "w-0006",
+   "changed_beats": 150,
+   "changed_fields": 150,
+   "chars_removed": 983
+  },
+  {
+   "wid": "w-0007",
+   "changed_beats": 108,
+   "changed_fields": 203,
+   "chars_removed": 1716
+  },
+  {
+   "wid": "w-0008",
+   "changed_beats": 5,
+   "changed_fields": 5,
+   "chars_removed": 20
+  },
+  {
+   "wid": "w-0010",
+   "changed_beats": 11,
+   "changed_fields": 12,
+   "chars_removed": 68
+  },
+  {
+   "wid": "w-0011",
+   "changed_beats": 47,
+   "changed_fields": 47,
+   "chars_removed": 460
+  },
+  {
+   "wid": "w-0012",
+   "changed_beats": 29,
+   "changed_fields": 29,
+   "chars_removed": 132
+  },
+  {
+   "wid": "w-0013",
+   "changed_beats": 38,
+   "changed_fields": 38,
+   "chars_removed": 191
+  },
+  {
+   "wid": "w-0014",
+   "changed_beats": 53,
+   "changed_fields": 53,
+   "chars_removed": 401
+  },
+  {
+   "wid": "w-0015",
+   "changed_beats": 17,
+   "changed_fields": 17,
+   "chars_removed": 132
+  },
+  {
+   "wid": "w-0016",
+   "changed_beats": 53,
+   "changed_fields": 53,
+   "chars_removed": 500
+  },
+  {
+   "wid": "w-0017",
+   "changed_beats": 25,
+   "changed_fields": 25,
+   "chars_removed": 162
+  },
+  {
+   "wid": "w-0018",
+   "changed_beats": 26,
+   "changed_fields": 26,
+   "chars_removed": 292
+  },
+  {
+   "wid": "w-0019",
+   "changed_beats": 1,
+   "changed_fields": 1,
+   "chars_removed": 22
+  },
+  {
+   "wid": "w-0020",
+   "changed_beats": 90,
+   "changed_fields": 97,
+   "chars_removed": 658
+  },
+  {
+   "wid": "w-0022",
+   "changed_beats": 1,
+   "changed_fields": 1,
+   "chars_removed": 6
+  },
+  {
+   "wid": "w-0026",
+   "changed_beats": 147,
+   "changed_fields": 198,
+   "chars_removed": 1113
+  },
+  {
+   "wid": "w-0028",
+   "changed_beats": 88,
+   "changed_fields": 122,
+   "chars_removed": 776
+  },
+  {
+   "wid": "w-0029",
+   "changed_beats": 2,
+   "changed_fields": 2,
+   "chars_removed": 12
+  },
+  {
+   "wid": "w-0030",
+   "changed_beats": 33,
+   "changed_fields": 35,
+   "chars_removed": 228
+  },
+  {
+   "wid": "w-0031",
+   "changed_beats": 121,
+   "changed_fields": 124,
+   "chars_removed": 1188
+  },
+  {
+   "wid": "w-0032",
+   "changed_beats": 64,
+   "changed_fields": 67,
+   "chars_removed": 566
+  },
+  {
+   "wid": "w-0033",
+   "changed_beats": 136,
+   "changed_fields": 198,
+   "chars_removed": 2182
+  },
+  {
+   "wid": "w-0034",
+   "changed_beats": 1,
+   "changed_fields": 1,
+   "chars_removed": 16
+  },
+  {
+   "wid": "w-0035",
+   "changed_beats": 40,
+   "changed_fields": 73,
+   "chars_removed": 656
+  },
+  {
+   "wid": "w-0036",
+   "changed_beats": 25,
+   "changed_fields": 25,
+   "chars_removed": 163
+  },
+  {
+   "wid": "w-0037",
+   "changed_beats": 2,
+   "changed_fields": 2,
+   "chars_removed": 30
+  }
+ ],
+ "totals": {
+  "works": 30,
+  "beats": 3957,
+  "changed_beats": 1990,
+  "changed_fields": 2557,
+  "chars_removed": 23569
+ }
+}

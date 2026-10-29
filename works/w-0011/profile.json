@@ -1,0 +1,72 @@
+{
+ "id": "w-0011",
+ "creator_id": "c-0007",
+ "series_id": null,
+ "episode": null,
+ "title": "我的婚礼 你的葬礼",
+ "aweme_id": "7690839200706333998（与 raw.json 一致）",
+ "url": null,
+ "duration_ms": 241980,
+ "published_at": "2026-09-29 18:01",
+ "status": "backfilled",
+ "platform": {
+  "digg": null,
+  "comment": null,
+  "share": null,
+  "collect": null,
+  "play": null,
+  "hashtags": [],
+  "music": null
+ },
+ "source": {
+  "type": "pointer",
+  "path": "/workspace/01_最终交付/江问渔/我的婚礼 你的葬礼",
+  "sha256": "",
+  "bytes": 0
+ },
+ "spec": {
+  "width": 1024,
+  "height": 576,
+  "fps": 1.0
+ },
+ "tags": [
+  "backfill"
+ ],
+ "coverage": {
+  "beats_total": 61,
+  "beats_registered": 61,
+  "dims_total": 10,
+  "dims_done": 0,
+  "c5_errors": null,
+  "c5_warns": null,
+  "ending_checked": false,
+  "c5_checked_at": null
+ },
+ "assessment": {
+  "hook": null,
+  "structure": null,
+  "character": null,
+  "visual": null,
+  "performance": null,
+  "sound": null,
+  "text": null,
+  "edit": null,
+  "emotion": null,
+  "spread": null
+ },
+ "knowledge_delta": {
+  "added": [],
+  "revised": [],
+  "refuted": [],
+  "none_reason": ""
+ },
+ "paths": {
+  "beats": "works/w-0011/beats.jsonl",
+  "assessment": "works/w-0011/assessment.md",
+  "dossier": "works/w-0011/dossier/",
+  "data": "works/w-0011/data/"
+ },
+ "created_at": "2026-10-29T18:45:01Z",
+ "updated": "2026-10-29",
+ "note": "backfill 自 江问渔/我的婚礼 你的葬礼（09 卷 c_NN 解析）；shot/move/speech/func 未回填，需重读补"
+}

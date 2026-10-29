@@ -1,0 +1,71 @@
+{
+ "id": "w-0035",
+ "creator_id": "c-0010",
+ "series_id": null,
+ "episode": null,
+ "title": "妈你又骗我",
+ "aweme_id": "7614442874269256933",
+ "url": null,
+ "duration_ms": 194670,
+ "published_at": "2026-03-07（平台字段 create_time）",
+ "status": "backfilled",
+ "platform": {
+  "digg": null,
+  "comment": null,
+  "share": null,
+  "collect": null,
+  "play": null,
+  "hashtags": [],
+  "music": null
+ },
+ "source": {
+  "type": "pointer",
+  "path": "/workspace/01_最终交付/野生布里茨/妈你又骗我",
+  "sha256": "",
+  "bytes": 0
+ },
+ "spec": {
+  "fps": 30.0,
+  "codec": "h264"
+ },
+ "tags": [
+  "backfill"
+ ],
+ "coverage": {
+  "beats_total": 49,
+  "beats_registered": 49,
+  "dims_total": 10,
+  "dims_done": 0,
+  "c5_errors": null,
+  "c5_warns": null,
+  "ending_checked": false,
+  "c5_checked_at": null
+ },
+ "assessment": {
+  "hook": null,
+  "structure": null,
+  "character": null,
+  "visual": null,
+  "performance": null,
+  "sound": null,
+  "text": null,
+  "edit": null,
+  "emotion": null,
+  "spread": null
+ },
+ "knowledge_delta": {
+  "added": [],
+  "revised": [],
+  "refuted": [],
+  "none_reason": ""
+ },
+ "paths": {
+  "beats": "works/w-0035/beats.jsonl",
+  "assessment": "works/w-0035/assessment.md",
+  "dossier": "works/w-0035/dossier/",
+  "data": "works/w-0035/data/"
+ },
+ "created_at": "2026-10-29T18:45:01Z",
+ "updated": "2026-10-29",
+ "note": "backfill 自 野生布里茨/妈你又骗我（09 卷 c_NN 解析）；shot/move/speech/func 未回填，需重读补"
+}

@@ -1,0 +1,71 @@
+{
+ "id": "w-0036",
+ "creator_id": "c-0010",
+ "series_id": null,
+ "episode": null,
+ "title": "山鸟他抬起头看见鸟儿拍打",
+ "aweme_id": "7692354174821944603（web_url https://www.douyin.com/video/7692354174821944603）",
+ "url": null,
+ "duration_ms": 631360,
+ "published_at": "2026-10-03（平台字段 created_at 2026-10-03T09:48:21Z）",
+ "status": "backfilled",
+ "platform": {
+  "digg": null,
+  "comment": null,
+  "share": null,
+  "collect": null,
+  "play": null,
+  "hashtags": [],
+  "music": null
+ },
+ "source": {
+  "type": "pointer",
+  "path": "/workspace/01_最终交付/野生布里茨/山鸟他抬起头看见鸟儿拍打",
+  "sha256": "",
+  "bytes": 0
+ },
+ "spec": {
+  "fps": 25.0,
+  "codec": "h264"
+ },
+ "tags": [
+  "backfill"
+ ],
+ "coverage": {
+  "beats_total": 158,
+  "beats_registered": 158,
+  "dims_total": 10,
+  "dims_done": 0,
+  "c5_errors": null,
+  "c5_warns": null,
+  "ending_checked": false,
+  "c5_checked_at": null
+ },
+ "assessment": {
+  "hook": null,
+  "structure": null,
+  "character": null,
+  "visual": null,
+  "performance": null,
+  "sound": null,
+  "text": null,
+  "edit": null,
+  "emotion": null,
+  "spread": null
+ },
+ "knowledge_delta": {
+  "added": [],
+  "revised": [],
+  "refuted": [],
+  "none_reason": ""
+ },
+ "paths": {
+  "beats": "works/w-0036/beats.jsonl",
+  "assessment": "works/w-0036/assessment.md",
+  "dossier": "works/w-0036/dossier/",
+  "data": "works/w-0036/data/"
+ },
+ "created_at": "2026-10-29T18:45:01Z",
+ "updated": "2026-10-29",
+ "note": "backfill 自 野生布里茨/山鸟他抬起头看见鸟儿拍打（09 卷 c_NN 解析）；shot/move/speech/func 未回填，需重读补"
+}

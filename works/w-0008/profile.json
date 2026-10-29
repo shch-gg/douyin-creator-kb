@@ -1,0 +1,74 @@
+{
+ "id": "w-0008",
+ "creator_id": "c-0006",
+ "series_id": "s-0001",
+ "episode": 1,
+ "title": "晒月光 第一集",
+ "aweme_id": "7421466482460167478",
+ "url": null,
+ "duration_ms": 245012,
+ "published_at": null,
+ "status": "backfilled",
+ "platform": {
+  "digg": null,
+  "comment": null,
+  "share": null,
+  "collect": null,
+  "play": null,
+  "hashtags": [],
+  "music": null
+ },
+ "source": {
+  "type": "pointer",
+  "path": "/workspace/01_最终交付/晒月光（短剧）/晒月光第一集",
+  "sha256": "",
+  "bytes": 0
+ },
+ "spec": {
+  "width": 1280,
+  "height": 720,
+  "fps": 29.97
+ },
+ "tags": [
+  "backfill"
+ ],
+ "coverage": {
+  "beats_total": 61,
+  "beats_registered": 61,
+  "dims_total": 10,
+  "dims_done": 0,
+  "c5_errors": null,
+  "c5_warns": null,
+  "ending_checked": false,
+  "c5_checked_at": null
+ },
+ "assessment": {
+  "hook": null,
+  "structure": null,
+  "character": null,
+  "visual": null,
+  "performance": null,
+  "sound": null,
+  "text": null,
+  "edit": null,
+  "emotion": null,
+  "spread": null
+ },
+ "knowledge_delta": {
+  "added": [
+   "kc-003"
+  ],
+  "revised": [],
+  "refuted": [],
+  "none_reason": ""
+ },
+ "paths": {
+  "beats": "works/w-0008/beats.jsonl",
+  "assessment": "works/w-0008/assessment.md",
+  "dossier": "works/w-0008/dossier/",
+  "data": "works/w-0008/data/"
+ },
+ "created_at": "2026-10-29T18:45:01Z",
+ "updated": "2026-10-29",
+ "note": "backfill 自 晒月光（短剧）/晒月光第一集（09 卷 c_NN 解析）；shot/move/speech/func 未回填，需重读补"
+}

@@ -1,0 +1,294 @@
+{
+ "generated_at": "2026-10-29T18:48:50Z",
+ "source": "/workspace/01_最终交付",
+ "items": [
+  {
+   "wid": "w-0002",
+   "title": "再就业吧丘比特",
+   "src": "不知名鸽子/再就业吧丘比特",
+   "beats": 85,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0003",
+   "title": "宇宙尽头有条红秋裤",
+   "src": "不知名鸽子/宇宙尽头有条红秋裤",
+   "beats": 83,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0004",
+   "title": "渡人渡己",
+   "src": "不知名鸽子/渡人渡己",
+   "beats": 83,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0005",
+   "title": "让胸部呼吸：胸部性化",
+   "src": "东曦/让胸部呼吸：胸部性化",
+   "beats": 552,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0006",
+   "title": "暴雪南风",
+   "src": "导演周天宇/暴雪南风",
+   "beats": 225,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0007",
+   "title": "浮华表象多假意朴素内里藏",
+   "src": "拾光故事馆/浮华表象多假意朴素内里藏",
+   "beats": 121,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0008",
+   "title": "晒月光第一集",
+   "src": "晒月光（短剧）/晒月光第一集",
+   "beats": 61,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0009",
+   "title": "晒月光第二集",
+   "src": "晒月光（短剧）/晒月光第二集",
+   "beats": 93,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0010",
+   "title": "晒月光 第一集番外",
+   "src": "晒月光（短剧）/第一集番外",
+   "beats": 17,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0011",
+   "title": "我的婚礼 你的葬礼",
+   "src": "江问渔/我的婚礼 你的葬礼",
+   "beats": 61,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0012",
+   "title": "ENEMY 杀意消除篇",
+   "src": "煎饼果仔（张问初）/ENEMY（系列）/杀意消除篇",
+   "beats": 66,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0013",
+   "title": "ENEMY 民国篇",
+   "src": "煎饼果仔（张问初）/ENEMY（系列）/民国篇",
+   "beats": 199,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0014",
+   "title": "ENEMY 第一季大结局篇",
+   "src": "煎饼果仔（张问初）/ENEMY（系列）/第一季大结局篇",
+   "beats": 74,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0015",
+   "title": "ENEMY 第一集",
+   "src": "煎饼果仔（张问初）/ENEMY（系列）/第一集",
+   "beats": 27,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0016",
+   "title": "ENEMY 第二集",
+   "src": "煎饼果仔（张问初）/ENEMY（系列）/第二集",
+   "beats": 68,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0017",
+   "title": "ENEMY 第五集",
+   "src": "煎饼果仔（张问初）/ENEMY（系列）/第五集",
+   "beats": 40,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0018",
+   "title": "ENEMY 第四集",
+   "src": "煎饼果仔（张问初）/ENEMY（系列）/第四集",
+   "beats": 28,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0019",
+   "title": "一月胜负欲",
+   "src": "煎饼果仔（张问初）/一月胜负欲",
+   "beats": 25,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0020",
+   "title": "不锈的我",
+   "src": "煎饼果仔（张问初）/不锈的我",
+   "beats": 103,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0021",
+   "title": "小年兽与捉妖师 大结局团圆",
+   "src": "煎饼果仔（张问初）/小年兽与捉妖师（系列）/大结局团圆",
+   "beats": 217,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0022",
+   "title": "小年兽与捉妖师 第一集缘始",
+   "src": "煎饼果仔（张问初）/小年兽与捉妖师（系列）/第一集缘始",
+   "beats": 103,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0023",
+   "title": "小年兽与捉妖师 第三集山水迢迢",
+   "src": "煎饼果仔（张问初）/小年兽与捉妖师（系列）/第三集山水迢迢",
+   "beats": 90,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0024",
+   "title": "小年兽与捉妖师 第二集帮助年阿宝",
+   "src": "煎饼果仔（张问初）/小年兽与捉妖师（系列）/第二集帮助年阿宝",
+   "beats": 101,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0025",
+   "title": "小年兽与捉妖师 第四集",
+   "src": "煎饼果仔（张问初）/小年兽与捉妖师（系列）/第四集",
+   "beats": 96,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0026",
+   "title": "百花",
+   "src": "煎饼果仔（张问初）/百花",
+   "beats": 226,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0027",
+   "title": "竹马大学城",
+   "src": "煎饼果仔（张问初）/竹马大学城",
+   "beats": 27,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0028",
+   "title": "绵羊少女",
+   "src": "煎饼果仔（张问初）/绵羊少女",
+   "beats": 99,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0029",
+   "title": "胜负欲第二集",
+   "src": "煎饼果仔（张问初）/胜负欲第二集",
+   "beats": 27,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0030",
+   "title": "逃出大英博物馆 第一集",
+   "src": "煎饼果仔（张问初）/逃出大英博物馆（系列）/第一集",
+   "beats": 41,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0031",
+   "title": "逃出大英博物馆 第三集·山河无恙，家国永安",
+   "src": "煎饼果仔（张问初）/逃出大英博物馆（系列）/第三集·山河无恙，家国永安",
+   "beats": 145,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0032",
+   "title": "逃出大英博物馆 第二集",
+   "src": "煎饼果仔（张问初）/逃出大英博物馆（系列）/第二集",
+   "beats": 70,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0033",
+   "title": "兄弟一百辈子",
+   "src": "葵的精神世界/兄弟一百辈子",
+   "beats": 154,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0034",
+   "title": "庄梦迭",
+   "src": "迷人又做作的李章浩/庄梦迭",
+   "beats": 214,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0035",
+   "title": "妈你又骗我",
+   "src": "野生布里茨/妈你又骗我",
+   "beats": 49,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0036",
+   "title": "山鸟他抬起头看见鸟儿拍打",
+   "src": "野生布里茨/山鸟他抬起头看见鸟儿拍打",
+   "beats": 158,
+   "vol": 11,
+   "rewrite": true
+  },
+  {
+   "wid": "w-0037",
+   "title": "我的相机出了点问题它能拍到人未来的样子",
+   "src": "野生布里茨/我的相机出了点问题它能拍到人未来的样子",
+   "beats": 75,
+   "vol": 11,
+   "rewrite": true
+  }
+ ]
+}

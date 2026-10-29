@@ -1,0 +1,154 @@
+{
+ "schema": "../schemas/kb.schema.json#/definitions/method_dim",
+ "updated": "2026-10-30",
+ "count": 7,
+ "methods_total": 65,
+ "items": [
+  {
+   "id": "m-01",
+   "type": "structure",
+   "kind": "method",
+   "title": "选题法",
+   "one_line": "拍什么：把社会情绪接进一个能一句话说清的设定",
+   "methods_count": 3,
+   "works": [
+    "w-0002",
+    "w-0006",
+    "w-0015",
+    "w-0016",
+    "w-0020",
+    "w-0026",
+    "w-0028",
+    "w-0030",
+    "w-0031",
+    "w-0032",
+    "w-0033"
+   ],
+   "source": "/workspace/01_最终交付/创作方法论/01_选题法.md",
+   "source_sha256": "9cd1391a9024fba2951cd8eaf308c088e41dd324fc4ce024e837b2b7f1d84e5a",
+   "path": "methods/m-01-选题法.md"
+  },
+  {
+   "id": "m-02",
+   "type": "emotion",
+   "kind": "method",
+   "title": "情绪点设计",
+   "one_line": "让谁、在第几秒、为什么动情",
+   "methods_count": 9,
+   "works": [
+    "w-0005",
+    "w-0020",
+    "w-0026",
+    "w-0028",
+    "w-0031",
+    "w-0033"
+   ],
+   "source": "/workspace/01_最终交付/创作方法论/02_情绪点设计.md",
+   "source_sha256": "2e136e093e56997717777fcd5bb753e59f5dfed2d00b2eccd2fcd5e076d2e9e3",
+   "path": "methods/m-02-情绪点设计.md"
+  },
+  {
+   "id": "m-03",
+   "type": "character",
+   "kind": "method",
+   "title": "人物关系设计",
+   "one_line": "靠谁和谁的关系当戏剧发动机",
+   "methods_count": 8,
+   "works": [
+    "w-0002",
+    "w-0005",
+    "w-0006",
+    "w-0015",
+    "w-0016",
+    "w-0026",
+    "w-0028",
+    "w-0030",
+    "w-0031"
+   ],
+   "source": "/workspace/01_最终交付/创作方法论/03_人物关系设计.md",
+   "source_sha256": "25baf7b143f7806b0b5a21e75e8f459c6ca1e2218ed436665d04618478087518",
+   "path": "methods/m-03-人物关系设计.md"
+  },
+  {
+   "id": "m-04",
+   "type": "theme",
+   "kind": "method",
+   "title": "不说教（议题与主题表达）",
+   "one_line": "怎么把道理讲得让人自己想通；先分类，无议题不硬凑",
+   "methods_count": 19,
+   "works": [
+    "w-0002",
+    "w-0005",
+    "w-0006",
+    "w-0026",
+    "w-0030",
+    "w-0031",
+    "w-0033",
+    "w-0034"
+   ],
+   "source": "/workspace/01_最终交付/创作方法论/04_不说教_议题与主题表达.md",
+   "source_sha256": "6dba0e47508257fd97bd39ebc93f2908341023f40c76034702f5dbd80602c472",
+   "path": "methods/m-04-不说教_议题与主题表达.md"
+  },
+  {
+   "id": "m-05",
+   "type": "hook",
+   "kind": "method",
+   "title": "击中感设计",
+   "one_line": "怎么让观众一看就觉得自己被击中",
+   "methods_count": 8,
+   "works": [
+    "w-0002",
+    "w-0015",
+    "w-0020",
+    "w-0028",
+    "w-0030",
+    "w-0032"
+   ],
+   "source": "/workspace/01_最终交付/创作方法论/05_击中感设计.md",
+   "source_sha256": "dfdd4cd9d3a8b55fa36c97d4e269f4a293d184da7775acaa17e0c3bce6c452ac",
+   "path": "methods/m-05-击中感设计.md"
+  },
+  {
+   "id": "m-06",
+   "type": "spread",
+   "kind": "method",
+   "title": "二次传播设计",
+   "one_line": "怎么让评论区自己长出来",
+   "methods_count": 5,
+   "works": [
+    "w-0002",
+    "w-0006",
+    "w-0015",
+    "w-0020",
+    "w-0026",
+    "w-0028",
+    "w-0030",
+    "w-0031",
+    "w-0032",
+    "w-0033"
+   ],
+   "source": "/workspace/01_最终交付/创作方法论/06_二次传播设计.md",
+   "source_sha256": "f19ac7bc2c8fe70bb2d2cc583ddf110232f09b9371760a81dc36717ed1df5370",
+   "path": "methods/m-06-二次传播设计.md"
+  },
+  {
+   "id": "m-07",
+   "type": "author",
+   "kind": "method",
+   "title": "作者自述与创作动机",
+   "one_line": "作者自己怎么说、我们怎么反推（证据层，非手法）",
+   "methods_count": 13,
+   "works": [
+    "w-0002",
+    "w-0006",
+    "w-0013",
+    "w-0033",
+    "w-0034"
+   ],
+   "source": "/workspace/01_最终交付/创作方法论/07_作者自述与创作动机.md",
+   "source_sha256": "aa39512d344753103e12f34e8df1a967e7542c9f7ca597a65685f7616885517c",
+   "path": "methods/m-07-作者自述与创作动机.md"
+  }
+ ]
+}

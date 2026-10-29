@@ -1,0 +1,352 @@
+{
+ "_doc": "05 卷权威文字表配方。每部作品显式指定「取哪几节」——不做自动猜测。sec 为标题前缀（startswith 匹配）；同一前缀在一卷内出现多次时用 occ 取第 N 次；force 覆盖该节全部条目的归类（sub=对白字幕 / screen=画面文字）。text_col 为文本列（0-based，秒列固定 sec_col=0）；pairs 用于四列交错的表 [[0,1],[2,3]]。claim 是档案标题自称的条数，用于校验。",
+ "w-0002": {
+  "sections": [
+   "一、对白字幕（中英双语，全片）"
+  ],
+  "text_col": 1,
+  "claim": 121
+ },
+ "w-0003": {
+  "sections": [
+   "一、对白/硬字幕"
+  ],
+  "text_col": 1,
+  "claim": 97
+ },
+ "w-0004": {
+  "sections": [
+   "一、对白/硬字幕"
+  ],
+  "text_col": 1,
+  "claim": 100
+ },
+ "w-0005": {
+  "sections": [
+   "一、对白字幕（按秒，逐字抄录自 09 卷）"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0006": {
+  "sections": [
+   {
+    "sec": "5.1 广播/播音字幕",
+    "force": "screen"
+   },
+   "5.2 门前夜访段",
+   "5.3 报生辰段",
+   "5.4 命理问答段",
+   "5.5 命理断言段",
+   "5.6 男子自述段",
+   "5.7 结论句"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0007": {
+  "sections": [
+   "一、对白/硬字幕"
+  ],
+  "text_col": 1,
+  "claim": 205
+ },
+ "w-0008": {
+  "sections": [
+   "一、画面文字与对白总表"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0009": {
+  "sections": [
+   "一、画面文字与对白总表"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0010": {
+  "sections": [
+   {
+    "sec": "一、画面字幕板·片头",
+    "force": "screen"
+   },
+   {
+    "sec": "二、角色竖字",
+    "force": "screen"
+   },
+   "三、单字幕（唯一非标题板字幕）",
+   {
+    "sec": "四、道具文字·病床卡",
+    "force": "screen"
+   }
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0011": {
+  "sections": [
+   "一、对白字幕（按秒，逐字抄录自 09 卷）"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0012": {
+  "sections": [
+   "二、对白（画面文字）全表"
+  ],
+  "text_col": 1,
+  "claim": 8,
+  "force": "screen",
+  "zero_dialogue": true
+ },
+ "w-0013": {
+  "sections": [
+   {
+    "sec": "2.0 片头字卡",
+    "force": "screen"
+   },
+   "2.1 市井童年",
+   "2.2 《双烈传》说书",
+   "2.3 戏班规矩",
+   "2.4 梨园双星",
+   {
+    "sec": "2.5 黑卡字景",
+    "force": "screen"
+   },
+   "2.6 日军逼戏",
+   "2.7 换角与诀别",
+   {
+    "sec": "2.8 最后一场戏",
+    "force": "screen"
+   },
+   "2.9 火中同尽",
+   {
+    "sec": "2.10 片尾署名卡",
+    "force": "screen"
+   }
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0014": {
+  "sections": [
+   "二、对白（画面文字）全表"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0015": {
+  "sections": [
+   "对白（画面文字）全表（8 条）"
+  ],
+  "text_col": 1,
+  "claim": 8,
+  "force": "screen",
+  "zero_dialogue": true
+ },
+ "w-0016": {
+  "sections": [
+   "对白归属表（E1"
+  ],
+  "text_col": 2,
+  "claim": null,
+  "force": "screen",
+  "zero_dialogue": true
+ },
+ "w-0017": {
+  "sections": [
+   "二、对白（画面文字）全表"
+  ],
+  "text_col": 1,
+  "claim": 2,
+  "force": "screen",
+  "zero_dialogue": true
+ },
+ "w-0018": {
+  "sections": [
+   "二、对白（画面文字）全表"
+  ],
+  "text_col": 1,
+  "claim": 3,
+  "force": "screen",
+  "zero_dialogue": true
+ },
+ "w-0019": {
+  "sections": [
+   "一、对白表（口播字幕 16 条"
+  ],
+  "text_col": 1,
+  "claim": 25
+ },
+ "w-0020": {
+  "sections": [
+   "对白归属表（E1"
+  ],
+  "text_col": 2,
+  "claim": null
+ },
+ "w-0021": {
+  "sections": [
+   "一、对白表（123 条）"
+  ],
+  "text_col": 1,
+  "claim": 123
+ },
+ "w-0022": {
+  "sections": [
+   "一、对白字幕全表"
+  ],
+  "text_col": 1,
+  "claim": 78
+ },
+ "w-0023": {
+  "sections": [
+   "一、对白字幕全表"
+  ],
+  "text_col": 1,
+  "claim": 54
+ },
+ "w-0024": {
+  "sections": [
+   "一、对白字幕全表"
+  ],
+  "text_col": 1,
+  "claim": 72
+ },
+ "w-0025": {
+  "sections": [
+   "一、对白表（85 条）"
+  ],
+  "text_col": 1,
+  "claim": 85
+ },
+ "w-0026": {
+  "sections": [
+   "A 线 · 拾婴与制度",
+   "C 线 · 市井",
+   "D 线 · 宫廷与权力",
+   "E 线 · 圣旨",
+   "F 线 · 尾声"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0027": {
+  "sections": [
+   "一、对白表（口播字幕 20 条"
+  ],
+  "text_col": 1,
+  "claim": 21
+ },
+ "w-0028": {
+  "sections": [
+   "对白归属表（E1"
+  ],
+  "text_col": 2,
+  "claim": null
+ },
+ "w-0029": {
+  "sections": [
+   "一、对白表（口播字幕 18 条"
+  ],
+  "text_col": 1,
+  "claim": 27
+ },
+ "w-0030": {
+  "sections": [
+   "第一段：伪新闻字幕",
+   "第二段：抓人与摔相机",
+   "第三段：赶人与叫住",
+   "第四段：拥抱与倾诉",
+   {
+    "sec": "第五段：片名卡与巷中争执",
+    "force": "screen"
+   },
+   "第六段：要回家与动手",
+   "第七段：约法与进屋",
+   "第八段：同室内心戏",
+   "第九段：收束"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0031": {
+  "sections": [
+   "一、出发·英国段",
+   "二、车站与车上",
+   "三、回国的日子",
+   "四、博物馆·送信",
+   "五、博物馆·唐大马唐小马",
+   "六、博物馆·文物独白群像",
+   "七、片名与黑场对白",
+   "八、多年后·男主成为主持人",
+   "九、片尾"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0032": {
+  "sections": [
+   "第一段：公园开场",
+   "第二段：超市与茶叶",
+   "第三段：街头做问卷",
+   "第四段：海边拉扯",
+   "第五段：玩相机",
+   "第六段：回忆与理想",
+   "第七段：寻壶新闻与确认",
+   "第八段：「家人」的定义",
+   "第九段：结尾"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0033": {
+  "sections": [
+   "二、对白字幕（逐秒全表"
+  ],
+  "text_col": 1,
+  "claim": null
+ },
+ "w-0034": {
+  "sections": [
+   "2.1 春·2004 老家",
+   "2.2 夏·深圳·莲花厂",
+   "2.3 秋·三年后 2007",
+   "2.4 冬·2007 昆明"
+  ],
+  "pairs": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ]
+  ],
+  "claim": null
+ },
+ "w-0035": {
+  "sections": [
+   "一、对白/硬字幕"
+  ],
+  "text_col": 1,
+  "claim": 56
+ },
+ "w-0036": {
+  "sections": [
+   "一、对白/硬字幕"
+  ],
+  "text_col": 1,
+  "claim": 211
+ },
+ "w-0037": {
+  "sections": [
+   "一、对白/硬字幕"
+  ],
+  "text_col": 1,
+  "claim": 92
+ },
+ "_force_note": "ENEMY 系列五部为零对白作品（kc-002 的核心事实）。05 卷「对白（画面文字）全表」登记的其实是系统 UI 红字、常驻免责、微恐提醒——若记进 sub 会直接推翻 kc-002，故整部 force=screen。民国篇与大结局有实拍对白，不 force。 这五部同时标 zero_dialogue=true：09 卷解析出的 sub 也一并清空并入 screen，has_dialogue 才为 false。"
+}

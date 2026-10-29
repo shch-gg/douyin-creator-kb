@@ -1,0 +1,280 @@
+{
+ "schema": null,
+ "updated": "2026-10-29",
+ "count": 0,
+ "vocab_size": 27,
+ "note": "词表来自 vocab/elements.yaml（手维护，唯一授权源）；本文件只是使用统计。unregistered 里的标签是词表外的非法使用，validate 会报 ERROR。",
+ "unregistered": [],
+ "items": [
+  {
+   "id": "beat.dialogue",
+   "namespace": "beat",
+   "name": "对话推进",
+   "desc": "靠对白交换信息或情绪",
+   "ns_desc": "常规推进（叙事的最小前进单位）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "beat.flashback",
+   "namespace": "beat",
+   "name": "闪回",
+   "desc": "插入过去时空",
+   "ns_desc": "常规推进（叙事的最小前进单位）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "beat.inner_voice",
+   "namespace": "beat",
+   "name": "旁白心声",
+   "desc": "画外音叙述人物内心，与画面构成对照",
+   "ns_desc": "常规推进（叙事的最小前进单位）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "beat.montage",
+   "namespace": "beat",
+   "name": "蒙太奇",
+   "desc": "多个短镜头压缩时间",
+   "ns_desc": "常规推进（叙事的最小前进单位）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "beat.transition",
+   "namespace": "beat",
+   "name": "过渡空镜",
+   "desc": "无叙事的过场：空镜、走路、环境",
+   "ns_desc": "常规推进（叙事的最小前进单位）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "end.cliffhanger",
+   "namespace": "end",
+   "name": "悬念收尾",
+   "desc": "在最紧张处切断，不给结果",
+   "ns_desc": "收束（结尾如何处理，决定追更与二刷）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "end.echo",
+   "namespace": "end",
+   "name": "首尾呼应",
+   "desc": "结尾回到开场的画面/台词，意义已变",
+   "ns_desc": "收束（结尾如何处理，决定追更与二刷）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "end.quote",
+   "namespace": "end",
+   "name": "金句收尾",
+   "desc": "以一句可摘录的话作结",
+   "ns_desc": "收束（结尾如何处理，决定追更与二刷）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "end.resolve",
+   "namespace": "end",
+   "name": "收束",
+   "desc": "矛盾得到交代，情绪落地",
+   "ns_desc": "收束（结尾如何处理，决定追更与二刷）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "end.twist",
+   "namespace": "end",
+   "name": "尾反转",
+   "desc": "最后几秒推翻全片理解",
+   "ns_desc": "收束（结尾如何处理，决定追更与二刷）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "hook.character",
+   "namespace": "hook",
+   "name": "人物先声",
+   "desc": "先给人物一个反常动作或一句定性台词，再交代处境",
+   "ns_desc": "开场钩子（前 3 秒决定完播的手法）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "hook.coldopen",
+   "namespace": "hook",
+   "name": "冷开场",
+   "desc": "无配乐、无旁白，只有环境声或静默",
+   "ns_desc": "开场钩子（前 3 秒决定完播的手法）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "hook.conflict",
+   "namespace": "hook",
+   "name": "冲突开场",
+   "desc": "第一秒就在争吵/对抗/施压中，无铺垫",
+   "ns_desc": "开场钩子（前 3 秒决定完播的手法）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "hook.image",
+   "namespace": "hook",
+   "name": "强画面开场",
+   "desc": "以构图或光影本身抓人，信息量低但视觉冲击高",
+   "ns_desc": "开场钩子（前 3 秒决定完播的手法）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "hook.question",
+   "namespace": "hook",
+   "name": "悬念提问",
+   "desc": "开场抛出一个当下不解答的问题，把答案压到后段",
+   "ns_desc": "开场钩子（前 3 秒决定完播的手法）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "hook.text",
+   "namespace": "hook",
+   "name": "字卡开场",
+   "desc": "用文字板/标题卡直接给设定或命题",
+   "ns_desc": "开场钩子（前 3 秒决定完播的手法）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "style.handheld",
+   "namespace": "style",
+   "name": "手持",
+   "desc": "晃动镜头，制造在场感与不安",
+   "ns_desc": "可迁移的视听手法（换题材也能用的技术选择）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "style.overexpose",
+   "namespace": "style",
+   "name": "过曝",
+   "desc": "高亮到细节丢失，用于记忆/失真段落",
+   "ns_desc": "可迁移的视听手法（换题材也能用的技术选择）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "style.pov",
+   "namespace": "style",
+   "name": "主观视角",
+   "desc": "镜头代人物的眼睛",
+   "ns_desc": "可迁移的视听手法（换题材也能用的技术选择）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "style.silence",
+   "namespace": "style",
+   "name": "静默",
+   "desc": "抽掉声音制造压迫或空白",
+   "ns_desc": "可迁移的视听手法（换题材也能用的技术选择）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "style.slowmo",
+   "namespace": "style",
+   "name": "升格",
+   "desc": "慢放强调瞬间",
+   "ns_desc": "可迁移的视听手法（换题材也能用的技术选择）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "style.text_card",
+   "namespace": "style",
+   "name": "手写字卡",
+   "desc": "手写体字卡作章节或标题",
+   "ns_desc": "可迁移的视听手法（换题材也能用的技术选择）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "turn.escalate",
+   "namespace": "turn",
+   "name": "冲突升级",
+   "desc": "同一矛盾加码（更狠的话、更大的代价）",
+   "ns_desc": "转折（情节或观众认知发生变化的点）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "turn.identity",
+   "namespace": "turn",
+   "name": "身份揭示",
+   "desc": "揭示人物真实身份或关系",
+   "ns_desc": "转折（情节或观众认知发生变化的点）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "turn.mislead",
+   "namespace": "turn",
+   "name": "误导",
+   "desc": "故意让观众得出错误判断，后段纠正",
+   "ns_desc": "转折（情节或观众认知发生变化的点）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "turn.reveal",
+   "namespace": "turn",
+   "name": "信息揭示",
+   "desc": "揭开此前隐藏的事实，观众认知被改写",
+   "ns_desc": "转折（情节或观众认知发生变化的点）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  },
+  {
+   "id": "turn.reverse",
+   "namespace": "turn",
+   "name": "反转",
+   "desc": "情节走向与前面铺垫相反",
+   "ns_desc": "转折（情节或观众认知发生变化的点）",
+   "works": [],
+   "count": 0,
+   "sample_refs": []
+  }
+ ]
+}

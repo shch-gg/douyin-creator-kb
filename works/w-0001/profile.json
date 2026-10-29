@@ -1,0 +1,71 @@
+{
+ "id": "w-0001",
+ "creator_id": "c-0006",
+ "series_id": "s-0001",
+ "episode": 3,
+ "title": "晒月光 第三集",
+ "aweme_id": "7427807581223111999",
+ "url": null,
+ "duration_ms": 215340,
+ "published_at": null,
+ "status": "prepped",
+ "platform": {
+  "digg": null,
+  "comment": null,
+  "share": null,
+  "collect": null,
+  "play": null,
+  "hashtags": [],
+  "music": null
+ },
+ "source": {
+  "type": "pointer",
+  "path": "/workspace/02_在办/晒月光第三集/晒月光第三集.mp4",
+  "sha256": "bd51e50ca531fc84706cee4094fc23923baeb31bfaf52433c12bd447eda619cd",
+  "bytes": 22629335
+ },
+ "spec": {
+  "width": 1280,
+  "height": 720,
+  "fps": 30.0,
+  "frames": 6460
+ },
+ "tags": [],
+ "coverage": {
+  "beats_total": 54,
+  "beats_registered": 0,
+  "dims_total": 10,
+  "dims_done": 0,
+  "c5_errors": 1,
+  "c5_warns": 0,
+  "ending_checked": false,
+  "c5_checked_at": "2026-10-29T19:03:13Z"
+ },
+ "assessment": {
+  "hook": null,
+  "structure": null,
+  "character": null,
+  "visual": null,
+  "performance": null,
+  "sound": null,
+  "text": null,
+  "edit": null,
+  "emotion": null,
+  "spread": null
+ },
+ "knowledge_delta": {
+  "added": [],
+  "revised": [],
+  "refuted": [],
+  "none_reason": ""
+ },
+ "paths": {
+  "beats": "works/w-0001/beats.jsonl",
+  "assessment": "works/w-0001/assessment.md",
+  "dossier": "works/w-0001/dossier/",
+  "data": "works/w-0001/data/"
+ },
+ "created_at": "2026-10-29T18:22:12Z",
+ "updated": "2026-10-30",
+ "note": "闸门2 产物已入库自包含（2026-10-30）：frames/ 215 张 1fps 帧、contact/ 54 张拼图、data/ 10 个量化文件（meta_raw/cuts/cut_scores/four_curves/visual_metrics/ocr/ocr_hd/whisper/vocal_blocks/black）。原片按 AGENTS 规则不入库，只留绝对路径 + sha256。闸门3（09 卷亲读）未完成。"
+}

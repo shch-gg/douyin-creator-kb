@@ -1,0 +1,550 @@
+{
+ "language": "zh",
+ "duration": 215.3665,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 1.46,
+   "text": "我讨厌同志",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 2,
+   "start": 2.62,
+   "end": 3.72,
+   "text": "从前第一名",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 3,
+   "start": 3.72,
+   "end": 5.24,
+   "text": "就很讨厌",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 4,
+   "start": 6.72,
+   "end": 7.86,
+   "text": "他哭得很丑",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 5,
+   "start": 8.76,
+   "end": 10.02,
+   "text": "总让我想起我",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 6,
+   "start": 10.02,
+   "end": 11.2,
+   "text": "每晚都不能遇及",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 7,
+   "start": 12.28,
+   "end": 14.06,
+   "text": "爸爸都是为了你",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 8,
+   "start": 14.06,
+   "end": 16.56,
+   "text": "咱在这个家忍受呢",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 9,
+   "start": 16.56,
+   "end": 18.32,
+   "text": "你一定要听话",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 10,
+   "start": 18.32,
+   "end": 19.22,
+   "text": "知不知道",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 11,
+   "start": 20.56,
+   "end": 23.24,
+   "text": "不然就是对不起妈妈",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 12,
+   "start": 23.86,
+   "end": 25.3,
+   "text": "都是为了你",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 13,
+   "start": 25.3,
+   "end": 26.5,
+   "text": "为了你",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.377
+  },
+  {
+   "id": 14,
+   "start": 38.06,
+   "end": 39.08,
+   "text": "你干什么呢",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.798
+  },
+  {
+   "id": 15,
+   "start": 42.4,
+   "end": 43.54,
+   "text": "我上演在画这个",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.798
+  },
+  {
+   "id": 16,
+   "start": 45.76,
+   "end": 47.38,
+   "text": "我上演在学习啊",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.798
+  },
+  {
+   "id": 17,
+   "start": 64.22,
+   "end": 65.88,
+   "text": "你不欺负别人啊",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.71
+  },
+  {
+   "id": 18,
+   "start": 69.18,
+   "end": 71.5,
+   "text": "你怎么给你拉一个鞭呀",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.71
+  },
+  {
+   "id": 19,
+   "start": 71.5,
+   "end": 73.16,
+   "text": "你怎么不去死啊",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.71
+  },
+  {
+   "id": 20,
+   "start": 75.28,
+   "end": 76.2,
+   "text": "说话",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.71
+  },
+  {
+   "id": 21,
+   "start": 80.36,
+   "end": 81.3,
+   "text": "不好意思啊",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.71
+  },
+  {
+   "id": 22,
+   "start": 85.28,
+   "end": 86.24,
+   "text": "对不起啊",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.71
+  },
+  {
+   "id": 23,
+   "start": 86.24,
+   "end": 87.68,
+   "text": "是我挡着路了",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.71
+  },
+  {
+   "id": 24,
+   "start": 90.18,
+   "end": 91.86,
+   "text": "这硬骨头今天是怎么了",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 25,
+   "start": 93.26,
+   "end": 94.74,
+   "text": "你早态度好点",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 26,
+   "start": 94.74,
+   "end": 96.22,
+   "text": "不就不找你查了",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 27,
+   "start": 96.76,
+   "end": 97.44,
+   "text": "对不起",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 28,
+   "start": 97.88,
+   "end": 99.58,
+   "text": "这不让你睡怪了",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 29,
+   "start": 99.58,
+   "end": 100.64,
+   "text": "一天天哪",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 30,
+   "start": 100.64,
+   "end": 101.84,
+   "text": "这不让你睡看",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 31,
+   "start": 109.02,
+   "end": 110.74,
+   "text": "已经给你办好转学了",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 32,
+   "start": 111.14,
+   "end": 112.32,
+   "text": "在新的学校呢",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 33,
+   "start": 112.32,
+   "end": 114.1,
+   "text": "你要好好感觉自己的脾气",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 34,
+   "start": 114.1,
+   "end": 115.38,
+   "text": "别跟你不情绪",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.494
+  },
+  {
+   "id": 35,
+   "start": 117.36,
+   "end": 118.42,
+   "text": "没有朋友呢",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 36,
+   "start": 118.42,
+   "end": 119.9,
+   "text": "很孤单呢",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 37,
+   "start": 119.9,
+   "end": 121.74,
+   "text": "我理解不了一分情感",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 38,
+   "start": 123.18,
+   "end": 123.9,
+   "text": "我只觉得",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 39,
+   "start": 124.48,
+   "end": 125.42,
+   "text": "他哭得真好",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 40,
+   "start": 125.42,
+   "end": 125.88,
+   "text": "那是装",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 41,
+   "start": 125.88,
+   "end": 126.86,
+   "text": "你给我装着",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 42,
+   "start": 127.58,
+   "end": 128.2,
+   "text": "知道吗",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 43,
+   "start": 128.2,
+   "end": 128.54,
+   "text": "爱人到",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 44,
+   "start": 128.54,
+   "end": 129.3,
+   "text": "小宋",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 45,
+   "start": 133.98,
+   "end": 134.38,
+   "text": "大家好",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 46,
+   "start": 135.04,
+   "end": 136.0,
+   "text": "我是许颂",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 47,
+   "start": 138.68,
+   "end": 140.22,
+   "text": "是一个开朗的男孩",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 48,
+   "start": 140.86,
+   "end": 141.56,
+   "text": "希望以后",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 49,
+   "start": 141.56,
+   "end": 142.82,
+   "text": "能跟大家成为好朋友",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.418
+  },
+  {
+   "id": 50,
+   "start": 151.86,
+   "end": 153.72,
+   "text": "许颂 下午去我们家吃饭吧",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.341
+  },
+  {
+   "id": 51,
+   "start": 155.3,
+   "end": 157.06,
+   "text": "许颂 大夫打丘一组啊",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.341
+  },
+  {
+   "id": 52,
+   "start": 157.06,
+   "end": 157.32,
+   "text": "好",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.341
+  },
+  {
+   "id": 53,
+   "start": 162.68,
+   "end": 164.46,
+   "text": "什么就对我个人这样",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.341
+  },
+  {
+   "id": 54,
+   "start": 165.34,
+   "end": 167.18,
+   "text": "原来在我还不知道的时候开始",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.341
+  },
+  {
+   "id": 55,
+   "start": 168.72,
+   "end": 171.48,
+   "text": "我对她 就是最长",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.341
+  },
+  {
+   "id": 56,
+   "start": 173.96,
+   "end": 175.14,
+   "text": "我不喜欢任何过",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.564
+  },
+  {
+   "id": 57,
+   "start": 176.96,
+   "end": 177.68,
+   "text": "我喜欢",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.564
+  },
+  {
+   "id": 58,
+   "start": 179.02,
+   "end": 179.94,
+   "text": "粉饰过后",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.564
+  },
+  {
+   "id": 59,
+   "start": 181.96,
+   "end": 182.68,
+   "text": "所以我想",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.564
+  },
+  {
+   "id": 60,
+   "start": 185.74,
+   "end": 186.94,
+   "text": "我应该讨厌的",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.564
+  },
+  {
+   "id": 61,
+   "start": 186.94,
+   "end": 193.2,
+   "text": "直到",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.564
+  },
+  {
+   "id": 62,
+   "start": 194.4,
+   "end": 195.76,
+   "text": "他留着脸说我可怜",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.564
+  },
+  {
+   "id": 63,
+   "start": 197.24,
+   "end": 198.74,
+   "text": "我的世界里像是有什么",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.564
+  },
+  {
+   "id": 64,
+   "start": 199.76,
+   "end": 201.04,
+   "text": "后人到她",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.6
+  },
+  {
+   "id": 65,
+   "start": 203.82,
+   "end": 204.54,
+   "text": "不知",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.6
+  },
+  {
+   "id": 66,
+   "start": 205.78,
+   "end": 207.22,
+   "text": "离这个真正的男的",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.6
+  },
+  {
+   "id": 67,
+   "start": 208.88,
+   "end": 209.96,
+   "text": "其实你哭的",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.6
+  },
+  {
+   "id": 68,
+   "start": 211.52,
+   "end": 212.58,
+   "text": "也没那么重要",
+   "no_speech_prob": 0.0,
+   "avg_logprob": -0.6
+  }
+ ]
+}

@@ -1,0 +1,818 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://local/kb.schema.json",
+ "title": "抖音博主知识库 · 统一 schema",
+ "description": "四类对象的字段契约。校验以 _pipeline/validate.py 的实现为准，本文件是人读与编辑器提示用。",
+ "definitions": {
+  "creator": {
+   "type": "object",
+   "required": [
+    "id",
+    "name",
+    "status",
+    "paths",
+    "updated"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^c-[0-9]{4}$"
+    },
+    "name": {
+     "type": "string",
+     "description": "中文显示名，只做展示不做路径"
+    },
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "douyin_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "抖音号；抓不到为 null"
+    },
+    "homepage": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "status": {
+     "enum": [
+      "stub",
+      "profiled",
+      "verified",
+      "blocked"
+     ]
+    },
+    "positioning": {
+     "type": "string",
+     "description": "一句话定位：给谁看、解决什么"
+    },
+    "format": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "内容形态：剧情短片/连续剧/口播/教程/混剪"
+    },
+    "tags": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "cadence": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "更新节奏，如 每周2更；未知为 null"
+    },
+    "works_count": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "independent_works": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "去系列后的独立作品数，知识卡样本以此为准"
+    },
+    "series_ids": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "matrix": {
+     "type": "object",
+     "description": "十维 × 作品 的分数矩阵；键为 work_id，值为十维对象或 null",
+     "additionalProperties": true
+    },
+    "fingerprint_confidence": {
+     "enum": [
+      "none",
+      "single_work",
+      "tendency",
+      "stable"
+     ]
+    },
+    "platform": {
+     "type": "object",
+     "description": "平台数据单列；抓不到写 null，禁止估算",
+     "properties": {
+      "followers": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "total_likes": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "captured_at": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     }
+    },
+    "paths": {
+     "type": "object",
+     "required": [
+      "index",
+      "fingerprint",
+      "matrix",
+      "trajectory"
+     ],
+     "properties": {
+      "index": {
+       "type": "string"
+      },
+      "fingerprint": {
+       "type": "string"
+      },
+      "matrix": {
+       "type": "string"
+      },
+      "trajectory": {
+       "type": "string"
+      }
+     }
+    },
+    "created_at": {
+     "type": "string"
+    },
+    "updated": {
+     "type": "string"
+    }
+   }
+  },
+  "work": {
+   "type": "object",
+   "required": [
+    "id",
+    "creator_id",
+    "title",
+    "status",
+    "duration_ms",
+    "paths",
+    "coverage",
+    "updated"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^w-[0-9]{4}$"
+    },
+    "creator_id": {
+     "type": "string",
+     "pattern": "^c-[0-9]{4}$"
+    },
+    "series_id": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "episode": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "description": "系列内第几集；非系列为 null"
+    },
+    "title": {
+     "type": "string"
+    },
+    "aweme_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "查重主键；缺失时用 title+duration 兜底"
+    },
+    "url": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "duration_ms": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "published_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "status": {
+     "enum": [
+      "planned",
+      "ingested",
+      "prepped",
+      "backfilled",
+      "read",
+      "decomposed",
+      "verified",
+      "blocked"
+     ],
+     "description": "planned 建档未取素材 / ingested 素材落盘 / prepped 前处理产物齐 / backfilled 从既有档案回收（库内闸门未重跑，靠 09 卷解析出 beats）/ read 逐格亲读完成 / decomposed 十一卷与评估写完 / verified 过 C5 且全库一致"
+    },
+    "platform": {
+     "type": "object",
+     "properties": {
+      "digg": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "comment": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "share": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "collect": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "play": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "hashtags": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "music": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     }
+    },
+    "source": {
+     "type": "object",
+     "description": "原片不入库，只留指针与哈希",
+     "required": [
+      "type",
+      "path",
+      "sha256"
+     ],
+     "properties": {
+      "type": {
+       "enum": [
+        "pointer"
+       ]
+      },
+      "path": {
+       "type": "string"
+      },
+      "sha256": {
+       "type": "string"
+      },
+      "bytes": {
+       "type": "integer"
+      }
+     }
+    },
+    "spec": {
+     "type": "object",
+     "properties": {
+      "w": {
+       "type": "integer"
+      },
+      "h": {
+       "type": "integer"
+      },
+      "fps": {
+       "type": "number"
+      },
+      "frames": {
+       "type": "integer"
+      }
+     }
+    },
+    "tags": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "coverage": {
+     "type": "object",
+     "required": [
+      "beats_total",
+      "beats_registered",
+      "dims_done",
+      "c5_errors",
+      "ending_checked"
+     ],
+     "properties": {
+      "beats_total": {
+       "type": "integer"
+      },
+      "beats_registered": {
+       "type": "integer"
+      },
+      "dims_total": {
+       "type": "integer",
+       "default": 10
+      },
+      "dims_done": {
+       "type": "integer"
+      },
+      "c5_errors": {
+       "type": "integer"
+      },
+      "c5_warns": {
+       "type": "integer"
+      },
+      "ending_checked": {
+       "type": "boolean"
+      }
+     }
+    },
+    "assessment": {
+     "type": "object",
+     "description": "十维 0–10，键名全库统一，不许用别名",
+     "properties": {
+      "hook": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "structure": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "character": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "visual": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "performance": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "sound": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "text": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "edit": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "emotion": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "spread": {
+       "type": [
+        "number",
+        "null"
+       ]
+      }
+     },
+     "additionalProperties": false
+    },
+    "knowledge_delta": {
+     "type": "object",
+     "required": [
+      "added",
+      "revised",
+      "refuted"
+     ],
+     "properties": {
+      "added": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "revised": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "refuted": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "none_reason": {
+       "type": "string"
+      }
+     }
+    },
+    "paths": {
+     "type": "object",
+     "required": [
+      "beats",
+      "assessment",
+      "dossier"
+     ],
+     "properties": {
+      "beats": {
+       "type": "string"
+      },
+      "assessment": {
+       "type": "string"
+      },
+      "dossier": {
+       "type": "string"
+      },
+      "data": {
+       "type": "string"
+      }
+     }
+    },
+    "created_at": {
+     "type": "string"
+    },
+    "updated": {
+     "type": "string"
+    }
+   }
+  },
+  "beat": {
+   "type": "object",
+   "description": "beats.jsonl 一行 = 一个 4 秒格（与拼图 c_NN 一一对应）",
+   "required": [
+    "wid",
+    "grid",
+    "t0",
+    "t1",
+    "visual"
+   ],
+   "properties": {
+    "wid": {
+     "type": "string",
+     "pattern": "^w-[0-9]{4}$"
+    },
+    "grid": {
+     "type": "string",
+     "pattern": "^c-[0-9]{2,3}$"
+    },
+    "t0": {
+     "type": "number",
+     "minimum": 0
+    },
+    "t1": {
+     "type": "number"
+    },
+    "shot": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "景别：大远景/远景/全景/中景/近景/特写"
+    },
+    "move": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "运镜：固定/推/拉/摇/移/跟/手持"
+    },
+    "visual": {
+     "type": "string",
+     "description": "画面亲读，必填"
+    },
+    "sub": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "对白字幕（人物说话的烧录字幕）。05 卷有权威表的作品由 05 卷重建，来源见 sub_src"
+    },
+    "screen": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "画面文字（非对白）：系统 UI ／片名卡／署名卡／招牌／道具字／常驻免责声明。与 sub 分列——混在一起会把字幕密度算出假高"
+    },
+    "sub_src": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "05",
+      "09",
+      null
+     ],
+     "description": "sub 的数据来源卷：05=05 卷权威表，09=09 卷行文解析，null=未登记"
+    },
+    "speech": {
+     "type": "array",
+     "description": "听到的话；与 sub 分列",
+     "items": {
+      "type": "object",
+      "required": [
+       "text"
+      ],
+      "properties": {
+       "who": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "text": {
+        "type": "string"
+       },
+       "t": {
+        "type": [
+         "number",
+         "null"
+        ]
+       }
+      }
+     }
+    },
+    "sound": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "music": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "func": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "命名空间标签，须在 catalog/elements.json 登记"
+    },
+    "correction": {
+     "type": "array",
+     "description": "定字修订记录：Whisper/OCR 读错时，写清谁错了、原来是啥、改成啥（AGENTS 规则3）",
+     "items": {
+      "type": "object",
+      "required": [
+       "source",
+       "was",
+       "is"
+      ],
+      "properties": {
+       "source": {
+        "type": "string",
+        "enum": [
+         "whisper",
+         "ocr",
+         "human",
+         "other"
+        ]
+       },
+       "was": {
+        "type": "string",
+        "description": "原识别的错值"
+       },
+       "is": {
+        "type": "string",
+        "description": "亲读确认的正确值"
+       },
+       "why": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "description": "错在哪：漏字/同音/断句/性别误判"
+       }
+      }
+     }
+    },
+    "note": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "additionalProperties": false
+  },
+  "knowledge": {
+   "type": "object",
+   "description": "知识卡 frontmatter；正文五节：主张/证据/反例与边界/可复用/饱和风险",
+   "required": [
+    "id",
+    "type",
+    "title",
+    "claim",
+    "maturity",
+    "sample_size",
+    "creator_count",
+    "confidence",
+    "status",
+    "works"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^kc-[0-9]{3}$"
+    },
+    "type": {
+     "enum": [
+      "hook",
+      "structure",
+      "character",
+      "visual",
+      "sound",
+      "text",
+      "edit",
+      "emotion",
+      "spread",
+      "series"
+     ]
+    },
+    "title": {
+     "type": "string"
+    },
+    "claim": {
+     "type": "string"
+    },
+    "maturity": {
+     "enum": [
+      "observation",
+      "pattern",
+      "rule",
+      "law"
+     ]
+    },
+    "sample_size": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "creator_count": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "confidence": {
+     "enum": [
+      "low",
+      "medium",
+      "high"
+     ]
+    },
+    "version": {
+     "type": "number"
+    },
+    "status": {
+     "enum": [
+      "active",
+      "narrowed",
+      "refuted",
+      "superseded"
+     ]
+    },
+    "works": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "coverage": {
+     "enum": [
+      "full_work",
+      "partial"
+     ]
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "work",
+       "at"
+      ],
+      "properties": {
+       "work": {
+        "type": "string"
+       },
+       "at": {
+        "type": "string",
+        "description": "秒号或区间，如 t=063s / t=062–069s"
+       },
+       "note": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "counterexamples": {
+     "type": "array"
+    },
+    "boundary": {
+     "type": "string"
+    },
+    "revisions": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "date",
+       "version",
+       "change"
+      ],
+      "properties": {
+       "date": {
+        "type": "string"
+       },
+       "version": {
+        "type": "number"
+       },
+       "change": {
+        "type": "string"
+       },
+       "trigger": {
+        "type": "string"
+       },
+       "evidence": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "refuted_by": {
+     "type": "array"
+    },
+    "narrowed_to": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "superseded_by": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "review_after": {
+     "type": "string"
+    },
+    "updated": {
+     "type": "string"
+    }
+   }
+  }
+ }
+}
